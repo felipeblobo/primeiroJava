@@ -1,6 +1,8 @@
 package com.example.demo.resources;
 
-@Rest
+
+@R
+@RequestMapping("/pessoas")
 public class PessoaResource {
 
 }
