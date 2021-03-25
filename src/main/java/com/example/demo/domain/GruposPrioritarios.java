@@ -9,8 +9,7 @@ import javax.persistence.Id;
 public class GruposPrioritarios {
 
 	@Id
-	@GeneratedValue(strategy = GenerationType.IDENTITY)
-	
+	@GeneratedValue(strategy = GenerationType.IDENTITY)	
 	private Long codigo;
 	
 	private String nome;
